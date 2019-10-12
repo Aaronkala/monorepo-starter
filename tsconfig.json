@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": "./",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "strict": true,
+    "paths": {
+      "@aaronhakala/ui": ["libs/ui/src/index.ts"]
+    }
+  }
+}
