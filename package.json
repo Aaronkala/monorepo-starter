@@ -70,7 +70,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn tsc && yarn lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "workspaces": [
