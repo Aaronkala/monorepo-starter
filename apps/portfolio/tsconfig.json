@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["esnext", "dom"],
+    "rootDir": "src",
+    "jsx": "react",
+    "noEmit": true,
+    "allowJs": false
+  },
+  "exclude": ["node_modules", ".cache", "public", "storybook-static"]
+}

@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "My personal monorepo",
-  "main": "index.js",
   "scripts": {
     "bootstrap": "npm-run-all -s \"lerna-prepare -- --{@}\" --",
     "format": "npm run format:code && npm run format:other",
@@ -37,7 +36,6 @@
     "@lerna/prompt": "3.13.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
-    "eslint": "^5.16.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-filenames": "^1.3.2",
@@ -55,6 +53,8 @@
     "prettier": "1.18.2",
     "rimraf": "^3.0.0",
     "ts-jest": "^22",
+    "ts-node": "8.4.1",
+    "tsconfig-paths": "^3.9.0",
     "typescript": "^3.6.4"
   },
   "lint-staged": {

@@ -1,0 +1,60 @@
+{
+  "name": "portfolio",
+  "description": "My portfolio",
+  "author": "Aaron <aaron.hakala@gmail.com> (aaronhakala.com)",
+  "private": true,
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "scripts": {
+    "analyse-bundle": "ANALYSE_BUNDLE=true gatsby build && serve public/webpack-bundle-analyser",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "dev": "yarn develop",
+    "check-types": "tsc",
+    "format": "prettier --write '{,!(node_modules|.cache|public)/**/}*.{js,jsx,ts,tsx}'",
+    "lint": "eslint . --ext .js,.ts,.tsx,",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@aaronhakala/ui": "^1.0.0",
+    "@testing-library/react": "^9.3.0",
+    "intersection-observer": "^0.7.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-helmet": "5.2.1",
+    "styled-components": "4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.2",
+    "@types/dotenv": "6.1.1",
+    "@types/jest": "24.0.18",
+    "@types/react": "16.9.3",
+    "@types/react-helmet": "5.0.10",
+    "@types/styled-components": "4.1.19",
+    "@typescript-eslint/eslint-plugin": "2.3.1",
+    "babel-loader": "8.0.6",
+    "babel-plugin-remove-graphql-queries": "2.7.10",
+    "babel-plugin-styled-components": "1.10.6",
+    "copy-webpack-plugin": "5.0.4",
+    "dotenv": "8.1.0",
+    "gatsby": "2.15.24",
+    "gatsby-image": "2.2.21",
+    "gatsby-plugin-catch-links": "2.1.10",
+    "gatsby-plugin-google-tagmanager": "2.1.10",
+    "gatsby-plugin-manifest": "2.2.18",
+    "gatsby-plugin-react-helmet": "3.1.8",
+    "gatsby-plugin-remove-trailing-slashes": "2.1.7",
+    "gatsby-plugin-robots-txt": "1.5.0",
+    "gatsby-plugin-sharp": "2.2.25",
+    "gatsby-plugin-sitemap": "2.2.14",
+    "gatsby-plugin-styled-components": "3.1.6",
+    "gatsby-plugin-typescript": "2.1.9",
+    "gatsby-plugin-webpack-bundle-analyzer": "1.0.5",
+    "gatsby-source-filesystem": "2.1.26",
+    "gatsby-transformer-sharp": "2.2.17"
+  },
+  "resolutions": {
+    "@types/react": "16.9.3"
+  }
+}

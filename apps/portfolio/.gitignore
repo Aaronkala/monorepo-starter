@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+# gatsby files
+.cache/
+/public
+
+# Mac files
+.DS_Store
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# NPM Lock File
+package-lock.json
+
+# Yarn Integrity file
+.yarn-integrity
+
+# .env files
+/.env.development
+/.env.production
