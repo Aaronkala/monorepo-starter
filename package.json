@@ -60,7 +60,8 @@
   "lint-staged": {
     "*.{js,jsx}": [
       "eslint --ignore-path .gitignore --ignore-path .prettierignore --fix",
-      "git add"
+      "git add",
+      "jest --bail --findRelatedTests"
     ],
     "*.{md,css,scss,yaml,yml}": [
       "prettier --write",
@@ -69,7 +70,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn tsc && yarn lint-staged"
     }
   },
   "workspaces": [
